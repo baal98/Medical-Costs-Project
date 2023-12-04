@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Prediction SPA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Insurance Cost Prediction</h1>
+        <form id="prediction-form">
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required><br><br>
+
+            <label for="sex">Sex:</label>
+            <select id="sex" name="sex">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br><br>
+
+            <label for="bmi">BMI (Body Mass Index):</label>
+            <select id="bmi" name="bmi">
+                <option value="heavy">Heavy</option>
+                <option value="normal">Normal</option>
+                <option value="too_heavy">Too Heavy</option>
+                <option value="too_weak">Too Weak</option>
+            </select><br><br>
+
+            <label for="children">Children:</label>
+            <input type="number" id="children" name="children" required><br><br>
+
+            <label for="smoker">Smoker:</label>
+            <select id="smoker" name="smoker">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select><br><br>
+
+            <label for="region">Region:</label>
+            <select id="region" name="region">
+                <option value="northeast">Northeast</option>
+                <option value="northwest">Northwest</option>
+                <option value="southeast">Southeast</option>
+                <option value="southwest">Southwest</option>
+            </select><br><br>
+
+            <button type="submit">Predict</button>
+        </form>
+
+        <h2>Predicted Cost: <span id="predicted-cost">N/A</span></h2>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-# Healthcare Analytics Portfolio Overview
+# Healthcare Costs Analysis Project
 
 ## Project Introduction
 
@@ -6,7 +6,7 @@ Welcome to our Healthcare Analytics Portfolio, showcasing an in-depth exploratio
 
 ## Table of Contents
 
-- [Healthcare Analytics Portfolio Overview](#healthcare-analytics-portfolio-overview)
+- [Healthcare Costs Analysis Project](#healthcare-analytics-portfolio-overview)
   - [Project Introduction](#project-introduction)
   - [Table of Contents](#table-of-contents)
   - [Healthcare Costs Analysis Project](#healthcare-costs-analysis-project)
